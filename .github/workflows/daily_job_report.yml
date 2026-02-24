@@ -3,7 +3,8 @@ name: Daily LinkedIn Job Report
 on:
   schedule:
     # 10:30 PM IST = 17:00 UTC (IST is UTC+5:30)
-    - cron: "0 17 * * *"
+    - cron: "30 1 * * *"
+    - cron: "30 9 * * *"
   workflow_dispatch:   # allows manual trigger from GitHub UI anytime
 
 jobs:
