@@ -24,7 +24,7 @@ APIFY_API_TOKEN   = os.environ["APIFY_API_TOKEN"]
 EMAIL_SENDER      = os.environ["EMAIL_SENDER"]       # Gmail address used to send
 EMAIL_PASSWORD    = os.environ["EMAIL_PASSWORD"]     # Gmail App Password
 EMAIL_RECIPIENT   = "mohithgurram03@gmail.com"
-ACTOR_ID          = "curious_coder/linkedin-jobs-scraper"
+ACTOR_ID          = "curious_coder~linkedin-jobs-scraper"
 TODAY             = date.today().isoformat()
 
 SEARCH_URLS = [
